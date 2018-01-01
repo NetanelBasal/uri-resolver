@@ -1,0 +1,37 @@
+{
+  "name": "uri-resolver",
+  "version": "1.0.0",
+  "description": "URL resolver",
+  "main": "build/src/index.js",
+  "typings": "build/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node ./config/test-runner.js",
+    "coverage": "istanbul cover ./config/test-runner.js",
+    "lint": "tslint --force -c ./config/tslint.json 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NetanelBasal/uri-resolver.git"
+  },
+  "keywords": [
+    "typescript",
+    "url resolver",
+    "url placeholder"
+  ],
+  "author": "Netanel Basal<netanel7799@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NetanelBasal/uri-resolver/issues"
+  },
+  "homepage": "https://github.com/NetanelBasal/uri-resolver#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.4",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.5.3",
+    "jasmine-console-reporter": "^1.2.7",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5"
+  }
+}

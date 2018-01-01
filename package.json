@@ -1,5 +1,5 @@
 {
-  "name": "uri-resolver",
+  "name": "resolve-uri",
   "version": "1.0.0",
   "description": "URL resolver",
   "main": "build/src/index.js",

@@ -1,7 +1,7 @@
 # URL resolver
 
 ## Install
-`npm install uri-resolver --save`
+`npm install resolve-uri --save`
 
 ## Usage
 ```ts
